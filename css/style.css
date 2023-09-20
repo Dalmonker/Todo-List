@@ -1,0 +1,48 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+  padding: 40px;
+}
+
+.btn {
+  padding: 30px 45px;
+  background-color: rgb(128, 128, 128, 0.2);
+  color: var(--white);
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.6;
+  border: none;
+  transition: 0.3s;
+  margin-left: 45px;
+}
+
+.btn:hover {
+  background-color: rgb(128, 128, 128, 0.5);
+}
+
+.delete-button {
+  border: none;
+  background-color: transparent;
+  background-color: rgba(172, 114, 114, 0.8);
+  font-size: 20px;
+  margin-left: 20px;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.delete-button:hover {
+  background-color: rgb(128, 128, 128, 0.5);
+}
+
+.element-li {
+  margin-top: 20px;
+}
